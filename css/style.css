@@ -29,7 +29,7 @@ body {
     /* border: 1px solid red; */
     width: 100%;
     height: 100vh;
-    background-image: url(/images/header/home-background-3.jpg);
+    background-image: url(../images/header/home-background-3.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
