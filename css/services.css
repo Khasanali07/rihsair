@@ -438,7 +438,7 @@
     line-height: 1em;
     color: var(--primary-gray);
     text-align: center;
-    width: 70%;
+/*     width: 70%; */
     margin: auto;
 }
 
