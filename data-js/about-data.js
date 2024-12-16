@@ -19,7 +19,7 @@ const translations = {
         itemTitle2: "Ventilation",
         itemDesc2: "Our ventilation systems ensure proper airflow, improving indoor air quality and creating a healthier environment. They prevent moisture buildup and reduce pollutants, making spaces more comfortable and fresh.",
         itemTitle3: "Air Lines",
-        itemDesc3: "We design and install efficient air lines that ensure balanced airflow throughout your space. Our systems connect HVAC units to various areas, improving air distribution and energy efficiency.",
+        itemDesc3: "We design and install efficient air lines that ensure balanced airflow throughout your space. Our systems connect Ventilation units to various areas, improving air distribution and energy efficiency.",
         // --------- Our Projects ---------
         projectsTitle: "Our Projects",
         projectsDesc: "Our Projects highlight the clients we’ve worked with, providing custom Ventilation solutions that fit their needs. Whether for homes or businesses, we focus on delivering high-quality systems that improve comfort and efficiency.",
