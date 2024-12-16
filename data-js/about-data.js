@@ -8,7 +8,7 @@ const translations = {
         navLinkAbout: "About",
         navLinkServices: "Services",
         // --------- Header ---------
-        headerLink: "#Ventilation System Services in UZB",
+        headerLink: "High Quality ventilation system services in Uzbekistan",
         headerTitle: "About Us",
         headerDescription: "We specialize in providing high-quality air conditioning systems for residential and commercial spaces. Our solutions are designed to ensure comfort, efficiency, and reliability, meeting the needs of every customer.",
         // --------- About ---------
