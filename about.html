@@ -36,7 +36,6 @@
                 </button>
                 <!-- SideBar -->
                 <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-              
                     <!-- Sidebar Header -->
                     <div class="offcanvas-header border-bottom">
                         <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Rihs-Air <i class="fa-solid fa-wind text-primary"></i></h5>
@@ -47,19 +46,36 @@
                     <div class="offcanvas-body d-flex flex-column p-4 p-lg-0 flex-lg-row">
                         <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                             <li class="nav-item mx-2">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                <a 
+                                    class="nav-link" 
+                                    href="index.html"
+                                    id="nav-home"
+                                ></a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link active" style="color: #001438;" href="about.html">About</a>
+                                <a 
+                                    class="nav-link active" 
+                                    style="color: #001438;" 
+                                    href="about.html"
+                                    id="nav-about"
+                                ></a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="services.html">Services</a>
+                                <a 
+                                    class="nav-link" 
+                                    href="services.html"
+                                    id="nav-services"
+                                ></a>
                             </li>
                         </ul>
                         <!-- Get in Touch -->
                         <div class="d-flex justify-content-center align-items-center">
                             <a href="#footer">
-                                <button type="button" class="btn btn-primary border-0 rounded-5 px-5 py-2 fs-5">Contact</button>
+                                <button 
+                                    type="button" 
+                                    class="btn btn-primary border-0 rounded-5 px-5 py-2 fs-5"
+                                    id="contact-button"
+                                ></button>
                             </a>
                         </div>
                     </div>
@@ -77,14 +93,9 @@
                     <img src="images/about/about-header-image.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-12 col-lg-6 banner_text_block">
-                    <p class="link">#1HVAC System Services in UZB</p>
-                    <h1 class="hero">About Us</h1>
-                    <p class="description">
-                        We specialize in providing high-quality air conditioning systems 
-                        for residential and commercial spaces. Our solutions are designed 
-                        to ensure comfort, efficiency, and reliability, meeting the needs 
-                        of every customer.
-                    </p>
+                    <p class="link" id="header-link"></p>
+                    <h1 class="hero" id="header-title"></h1>
+                    <p class="description" id="header-description"></p>
                     </div>
             </div>
         </div>
@@ -95,23 +106,16 @@
         <div class="container">
             <!-- Work Info -->
             <div class="row col-12 work-info">
-                <h1 class="hero">We are air conditioning system company for home and office confort</h1>
-                <p class="description">
-                    Whichever solution best fits your home, you can be sure 
-                    you’ll get the latest in HVAC technology and 
-                    a heating and cooling system that fits your lifestyle.
-                </p>
+                <h1 class="hero" id="about-title"></h1>
+                <p class="description" id="about-desc"></p>
             </div>
             <!-- Service Items -->
             <!-- air-conditioning -->
             <div class="row service-item reverse" id="air-conditioning">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>Air Conditioning</h3>
-                        <p class="description">
-                            We provide energy-efficient air conditioning systems that ensure comfort in 
-                            both homes and offices. Our solutions regulate temperature effectively, 
-                            offering year-round comfort while minimizing energy use.
+                        <h3 id="item-title1"></h3>
+                        <p class="description" id="item-desc1">
                         </p>
                     </div>
                 </div>
@@ -123,12 +127,8 @@
             <div class="row service-item reverse" id="ventilation">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>Ventilation</h3>
-                        <p class="description">
-                            Our ventilation systems ensure proper airflow, improving indoor air quality 
-                            and creating a healthier environment. They prevent moisture buildup and 
-                            reduce pollutants, making spaces more comfortable and fresh.
-                        </p>
+                        <h3 id="item-title2"></h3>
+                        <p class="description" id="item-desc2"></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 service-image">
@@ -139,12 +139,8 @@
             <div class="row service-item reverse" id="air-lines">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>Air Lines</h3>
-                        <p class="description">
-                            We design and install efficient air lines that ensure balanced airflow 
-                            throughout your space. Our systems connect HVAC units to various areas, 
-                            improving air distribution and energy efficiency.
-                        </p>
+                        <h3 id="item-title3"></h3>
+                        <p class="description" id="item-desc3"></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 service-image">
@@ -159,12 +155,8 @@
         <div class="container">
             <!-- Work Info -->
             <div class="row col-12 work-info">
-                <h1 class="hero">Our Projects</h1>
-                <p class="description">
-                    Our Projects highlight the clients we’ve worked with, providing custom HVAC 
-                    solutions that fit their needs. Whether for homes or businesses, we focus on 
-                    delivering high-quality systems that improve comfort and efficiency.
-                </p>
+                <h1 class="hero" id="projects-title"></h1>
+                <p class="description" id="projects-desc"></p>
             </div>
             <!-- Carousel -->
             <div id="carouselExampleCaptions" class="carousel slide" id="carousel">
@@ -172,81 +164,59 @@
                     <div class="carousel-item active" id="ventilation">
                         <img src="images/about/mirabad-avenue.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>Mirabad Avenue</h3>
-                            <p class="description">
-                                Mirabad Avenue stands as a symbol of modern urban development in Tashkent, 
-                                offering high-quality residential and commercial spaces designed for comfort 
-                                and elegance.
-                            </p>
+                            <h3 id="carousel-title1"></h3>
+                            <p class="description" id="carousel-desc1"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="installation">
-                        <img src=images/about/uz-gtl.jpg" class="d-block w-100" alt="...">
+                        <img src="images/about/uz-gtl.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>UZ-GTL</h3>
-                            <p class="description">
-                                UZ-GTL is a major energy project in Uzbekistan, producing 
-                                synthetic fuels and contributing to the nation’s energy independence.
-                            </p>
+                            <h3 id="carousel-title2"></h3>
+                            <p class="description" id="carousel-desc2"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="installation">
                         <img src="images/about/central-asian-university.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>Central Asian University</h3>
-                            <p class="description">
-                                Central Asian University in Tashkent is a leading institution offering world-class 
-                                education with a focus on innovation and research.
-                            </p>
+                            <h3 id="carousel-title3"></h3>
+                            <p class="description" id="carousel-desc3"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="installation">
                         <img src="images/about/it-park.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>IT Park</h3>
-                            <p class="description">
-                                IT Park serves as the heart of Uzbekistan’s tech industry, fostering innovation, 
-                                startups, and the digital future of the country.
-                            </p>
+                            <h3 id="carousel-title4"></h3>
+                            <p class="description" id="carousel-desc4"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="installation">
                         <img src="images/about/texnopark.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>Texnopark</h3>
-                            <p class="description">
-                                Texnopark is a hub for industrial innovation and technology 
-                                in Uzbekistan, advancing the production of high-quality goods.
-                            </p>
+                            <h3 id="carousel-title5"></h3>
+                            <p class="description" id="carousel-desc5"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="installation">
                         <img src="images/about/magic-city.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>Magic City</h3>
-                            <p class="description">
-                                Magic City offers a unique blend of entertainment and leisure in 
-                                Tashkent, featuring a range of attractions for all ages.
-                            </p>
+                            <h3 id="carousel-title6"></h3>
+                            <p class="description" id="carousel-desc6"></p>
                         </div>
                     </div>
                     <div class="carousel-item" id="air_conditioning">
                         <img src="images/about/ecobozor.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption">
-                            <h3>Ecobozor</h3>
-                            <p class="description">
-                                Ecobozor in Tashkent is a modern marketplace promoting sustainable 
-                                shopping with a focus on fresh, locally sourced products.
-                            </p>
+                            <h3 id="carousel-title7"></h3>
+                            <p class="description" id="carousel-desc7"></p>
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span class="visually-hidden">Previous</span>
+                        <span class="visually-hidden" id="control-prev">Previous</span>
                     </button>
                     <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
                         <span class="carousel-control-next-icon" style="color: white;" aria-hidden="true"></span>
-                        <span class="visually-hidden">Next</span>
+                        <span class="visually-hidden" id="control-next">Next</span>
                     </button>
                 </div>
             </div>
@@ -262,19 +232,19 @@
                     <div class="col-12 col-md-4 mb-4">
                         <div class="counter border p-4">
                             <h1 class="display-4"><span data-count="16">0</span>+</h1>
-                            <p>Years Experience</p>
+                            <p id="numbers-experience-text"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mb-4">
                         <div class="counter border p-4">
                             <h1 class="display-4"><span data-count="1">0</span>k+</h1>
-                            <p>Successful Projects</p>
+                            <p id="numbers-project-text"></p>
                         </div>
                     </div>
                     <div class="col-12 col-md-4 mb-4">
                         <div class="counter border p-4">
                             <h1 class="display-4"><span data-count="50">0</span>+</h1>
-                            <p>Clients</p>
+                            <p id="numbers-client-text"></p>
                         </div>
                     </div>
                 </div>
@@ -284,7 +254,7 @@
 
     <!-- Section-4: Clients -->
     <section id="logoCarousel" class="section_4 container carousel slide my-5" data-ride="carousel">
-        <h2>Our Main Clinets</h2>
+        <h2 id="clients-main-title">Our Main Clinets</h2>
         <hr>
         <div class="carousel-inner">
             <div class="carousel-item active">
@@ -312,21 +282,26 @@
             <div class="footer-container row row-cols-1 row-cols-lg-2 py-5">
                 <div class="footer-wrapper col">
                     <div class="footer-brand-wrapper">
-                        <p class="footer-brand-description">Air Conditioning 128 is a leading player in the global HVAC market.</p>
+                        <p class="footer-brand-description" id="footer-brand-description"></p>
                         <div class="footer-social-icons">
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://t.me/akhmedov_2303"><i class="fa-brands fa-telegram"></i></a>
                         </div>
                         <div class="footer-location">
-                            <a href="#">
+                            <a href="#" id="footer-location">
                                 <i class="fa-solid fa-location-dot"></i>
                             </a>
                         </div>
                         <div class="footer-call">
-                            <i class="fa-solid fa-phone"></i>
-                            <a href="#">+99890-123-45-67</a> 
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="#">+99890-123-45-67</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
                             <a href="#">+99897-654-32-10</a>
+                            </div>
                         </div>
                     </div>
                     <div class="footer-copyright">
@@ -346,12 +321,8 @@
         </div>
     </footer>
 
-
-    
-    
-
     <script src="js/about.js"></script>
-    <script src="data-js/about-data.js"></script>
+    <script src="/data-js/about-data.js"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
