@@ -25,6 +25,36 @@
     font-size: 1.5em;
 }
 
+/* Language Selector */
+.language-selector {
+    width: 130px;
+    margin-left: 25px; 
+    padding: 9px;
+    border: none;
+    /* border-radius: 15px; */
+    background-color: #0057ff;
+    color: #fff;
+    /* display: none; */
+    font-size: 1.2rem;
+    font-family: var(--primary-font-nunito);
+ }
+ 
+ .language-selector option {
+     font-size: 1.2rem;
+     font-family: var(--primary-font-nunito);
+     color: var(--primary-dark);
+     background-color: #fff;
+ }
+ 
+ @media (max-width: 991px) {
+     .language-selector {
+         width: 100px;
+         margin: 0 auto;
+         padding: 5px;
+     }
+ }
+ /* ---------------- */
+
 .offcanvas-body .nav-link {
     font-family: var(--primary-font-raleway);
     color: gray;
