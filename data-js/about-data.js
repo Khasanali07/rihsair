@@ -55,7 +55,7 @@ const translations = {
         navLinkAbout: "Biz haqimizda",
         navLinkServices: "Xizmatlar",
         // --------- Header ---------
-        headerLink: "O‘zbekistondagi #1 Ventilyatsiya tizim xizmatlari",
+        headerLink: "O‘zbekistondagi sifatli Ventilyatsiya tizimi xizmatlari",
         headerTitle: "Biz haqimizda",
         headerDescription: "Biz turar-joy va tijorat binolari uchun yuqori sifatli ventilyatsiya tizimlarini taqdim etishga ixtisoslashganmiz. Bizning yechimlarimiz har bir mijozning ehtiyojlarini qondirishga mo'ljallangan qulaylik, samaradorlik va ishonchlilikni ta'minlaydi.",
         // --------- About ---------
@@ -102,7 +102,7 @@ const translations = {
         navLinkAbout: "О нас",
         navLinkServices: "Услуги",
         // --------- Header ---------
-        headerLink: "#1Услуги по Вентиляция системам в Узбекистане",
+        headerLink: "Качественные услуги вентиляционных систем в Узбекистане",
         headerTitle: "О нас",
         headerDescription: "Мы специализируемся на предоставлении высококачественных систем вентиляции воздуха для жилых и коммерческих помещений. Наши решения обеспечивают комфорт, эффективность и надежность, удовлетворяя потребности каждого клиента.",
         // --------- About ---------
