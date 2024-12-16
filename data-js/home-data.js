@@ -12,7 +12,7 @@ const translations = {
         navLinkAbout: "About",
         navLinkService: "Service",
         // --------- Header ---------
-        headerLink: "#Ventilation System Services in UZB",
+        headerLink: "High Quality ventilation system services in Uzbekistan",
         headerTitle: "Ventilation systems for your Home and Office Comfort",
         headerDescription: "Our ventilation systems provide reliable and efficient solutions for both homes and offices. We are committed to delivering comfort and performance, ensuring that your space remains cool and comfortable while meeting all necessary standards for quality and energy efficiency.",
         // --------- About ---------
@@ -23,7 +23,7 @@ const translations = {
         aboutCardTitle3: "Air Lines",
         aboutCardDesc1: "We provide energy-efficient air conditioning solutions to maintain a comfortable temperature and air quality in both residential and commercial spaces.",
         aboutCardDesc2: "Our ventilation systems ensure proper airflow, improving indoor air quality and promoting a healthier environment for homes and workplaces.",
-        aboutCardDesc3: "We specialize in designing and installing air lines that connect HVAC systems to various zones, ensuring consistent and efficient airflow throughout the building.",
+        aboutCardDesc3: "We specialize in designing and installing air lines that connect Ventilation systems to various zones, ensuring consistent and efficient airflow throughout the building.",
         // --------- Our Services --------- 
         serviceSubheading: "What we do",
         serviceMainTitle: "Our Services",
@@ -43,7 +43,7 @@ const translations = {
         // --------- Clients ---------
         clientsMainTitle: "Our Clinets",
         // --------- Footer ---------
-        footerBrandDescription: "Rihs-Air Conditioning Company is a leading player in the HVAC market of Uzbekistan.",
+        footerBrandDescription: "Rihs-Air Ventilation Company holds a leading position in Uzbekistan's ventilation market.",
         footerLocation: "Tashkent Region, Yangiyul District, U. Musayev RCA, «Tashkent-Termiz» Highway.",
     },
     uz: {
@@ -58,7 +58,7 @@ const translations = {
         navLinkAbout: "Biz haqimizda",
         navLinkService: "Xizmatlar",
         // --------- Header ---------
-        headerLink: "O‘zbekistondagi #1 Ventilyatsiya tizim xizmatlari",
+        headerLink: "O‘zbekistondagi sifatli Ventilyatsiya tizimi xizmatlari",
         headerTitle: "Uy va Ofisingiz uchun Ventilyatsiya Tizimlari",
         headerDescription: "Bizning ventilyatsiya tizimlarimiz uylar va ofislar uchun ishonchli va samarali yechimlarni taqdim etadi. Biz sizning hududingizda qulaylik va unumdorlikni ta'minlashga intilamiz, sifat va energiya samaradorligi bo‘yicha barcha zaruriy standartlarga mos kelishini kafolatlaymiz.",
         // --------- About ---------
@@ -69,7 +69,7 @@ const translations = {
         aboutCardTitle3: "Havo Liniyalari",
         aboutCardDesc1: "Biz turar-joy va tijorat ob’yektlarida qulay harorat va havo sifatini saqlash uchun energiya tejovchi konditsioner echimlarini taqdim etamiz.",
         aboutCardDesc2: "Bizning ventilyatsiya tizimlarimiz to'g'ri havo oqimini ta’minlaydi, ichki havoning sifatini yaxshilaydi va uylar hamda ish joylari uchun sog‘lom muhitni qo‘llab-quvvatlaydi.",
-        aboutCardDesc3: "Biz HVAC tizimlarini turli zonalarga ulaydigan havo liniyalarini loyihalash va o‘rnatishga ixtisoslashganmiz, bino bo‘ylab uzluksiz va samarali havo oqimini ta’minlaymiz.",
+        aboutCardDesc3: "Biz Ventilyatsiya tizimlarini turli zonalarga ulaydigan havo liniyalarini loyihalash va o‘rnatishga ixtisoslashganmiz, bino bo‘ylab uzluksiz va samarali havo oqimini ta’minlaymiz.",
         // --------- Our Services --------- 
         serviceSubheading: "Biz nima qilamiz",
         serviceMainTitle: "Bizning xizmatlarimiz",
@@ -79,7 +79,7 @@ const translations = {
         serviceCardTitle2: "Havo Kanallarini O'rnatish",
         serviceCardDesc2: "Bizneslarda isitish va sovutish uskunalarini ventilyatsiya tizimiga ulab, tizimni o'rnatamiz.",
         serviceCardTitle3: "Texnik Xizmat va Ta'mirlash",
-        serviceCardDesc3: "Sizning HVAC tizimingizni to'g'ri va samarali ishlashini ta'minlash uchun muntazam texnik xizmat ko'rsatish muhimdir.",
+        serviceCardDesc3: "Sizning Ventilyatsiya tizimingizni to'g'ri va samarali ishlashini ta'minlash uchun muntazam texnik xizmat ko'rsatish muhimdir.",
         serviceCardTitle4: "Ichki Havo Sifatini Sinovdan O'tkazish",
         serviceCardDesc4: "Tizimning to'g'ri ishlashini ta'minlash uchun ichki havoni sinovdan o'tkazamiz va zarur bo'lgan har qanday sozlashlarni amalga oshiramiz.",
         // --------- Numbers ---------
@@ -89,7 +89,7 @@ const translations = {
         // --------- Clients ---------
         clientsMainTitle: "Bizning Mijozlarimiz",
         // --------- Footer ---------
-        footerBrandDescription: "Rihs-Air Konditsioner Kompaniyasi O‘zbekistonning Ventilyatsiya bozorida yetakchi o‘rinni egallagan.",
+        footerBrandDescription: "Rihs-Air Ventilyatsiya Kompaniyasi O‘zbekistonning Ventilyatsiya bozorida yetakchi o‘rinni egallagan.",
         footerLocation: "Toshkent viloyati, Yangiyo‘l tumani, U. Musayev MFY, «Toshkent-Termiz» avtomobil yo'li."
     },
     ru: {
@@ -104,7 +104,7 @@ const translations = {
         navLinkAbout: "О нас",
         navLinkService: "Услуги",
         // --------- Header ---------
-        headerLink: "#1Системы вентиляции в Узбекистане",
+        headerLink: "Качественные услуги вентиляционных систем в Узбекистане",
         headerTitle: "Системы вентиляции для вашего дома и офиса",
         headerDescription: "Наши системы вентиляции обеспечивают надежные и эффективные решения как для жилых, так и для офисных помещений. Мы стремимся к тому, чтобы ваши пространства оставались прохладными и комфортными, соответствуя всем стандартам качества и энергоэффективности.",
         // --------- About ---------
@@ -135,7 +135,7 @@ const translations = {
         // --------- Clients ---------
         clientsMainTitle: "Наши Клиенты",
         // --------- Footer ---------
-        footerBrandDescription: "Компания Rihs-Air является ведущим игроком на рынке Вентиляция в Узбекистане.",
+        footerBrandDescription: "Вентиляционная компания Rihs-Air занимает лидирующие позиции на рынке вентиляции Узбекистана.",
         footerLocation: "Ташкентский область, Янгиюлский район, У.Мусаев КФЙ, Автотрасса «Тошкент –Термиз»."
     }    
 };
