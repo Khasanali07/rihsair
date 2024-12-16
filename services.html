@@ -34,6 +34,7 @@
                 <button class="navbar-toggler shadow-none border-0 bg-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon "></span>
                 </button>
+          
                 <!-- SideBar -->
                 <div class="sidebar offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
               
@@ -47,19 +48,37 @@
                     <div class="offcanvas-body d-flex flex-column p-4 p-lg-0 flex-lg-row">
                         <ul class="navbar-nav justify-content-center align-items-center fs-5 flex-grow-1 pe-3">
                             <li class="nav-item mx-2">
-                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                                <a 
+                                    class="nav-link" 
+                                    aria-current="page" 
+                                    href="index.html"
+                                    id="nav-home"
+                                ></a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link" href="about.html">About</a>
+                                <a 
+                                    class="nav-link" 
+                                    href="about.html"
+                                    id="nav-about"
+                                ></a>
                             </li>
                             <li class="nav-item mx-2">
-                                <a class="nav-link active" style="color: #001438;" href="services.html">Services</a>
+                                <a 
+                                    class="nav-link active" 
+                                    style="color: #001438;" 
+                                    href="services.html"
+                                    id="nav-services"
+                                ></a>
                             </li>
                         </ul>
                         <!-- Get in Touch -->
                         <div class="d-flex justify-content-center align-items-center">
                             <a href="#footer">
-                                <button type="button" class="btn btn-primary border-0 rounded-5 px-5 py-2 fs-5">Contact</button>
+                                <button 
+                                    type="button" 
+                                    class="btn btn-primary border-0 rounded-5 px-5 py-2 fs-5"
+                                    id="contact-button"
+                                ></button>
                             </a>
                         </div>
                     </div>
@@ -77,11 +96,9 @@
                     <img src="images/services/service-header-image.jpg" alt="">
                 </div>
                 <div class="col-12 col-md-12 col-lg-6 banner_text_block">
-                    <p class="link">#1HVAC System Services in USA</p>
-                    <h1 class="hero">Our Products and Services</h1>
-                    <p class="description">
-                        Rihs-Air offers a comprehensive range of high-quality HVAC products and services to ensure optimal comfort and performance. Whether you need durable air ducts, expert installation, or reliable maintenance and repair solutions, our team is dedicated to providing efficient, tailored solutions that meet your unique needs.
-                    </p>
+                    <p class="link" id="header-link"></p>
+                    <h1 class="hero" id="header-title"></h1>
+                    <p class="description"  id="header-description"></p>
                 </div>
             </div>
         </div>
@@ -92,15 +109,8 @@
         <div class="container py-5 ">
             <div class="row work-info d-flex align-items-center py-3 ">
                 <div class="col">
-                    <h2>Our Main Products</h2>
-                    <p class="description ">
-                        Our high-quality air ducts and fittings are designed 
-                        to ensure optimal airflow and efficiency in both residential 
-                        and commercial HVAC systems. From rectangular and round ducts 
-                        to elbows and transitions, we offer a variety of products that 
-                        provide reliable performance and ease of installation, 
-                        tailored to meet your specific needs.
-                    </p>
+                    <h2 id="products-title"></h2>
+                    <p class="description" id="products-desc"></p>
                 </div>
             </div>
             <div class="row work-list ">
@@ -109,10 +119,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/rectangular-air-duct.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Rectangular Air Duct</h3>
-                                <p>
-                                    Efficient air distribution in large spaces, perfect for commercial and industrial applications.
-                                </p>
+                                <h3 id="product-title1"></h3>
+                                <p id="product-desc1"></p>
                             </div>
                         </div>
                     </div>
@@ -120,10 +128,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/round-air-duct.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Round Air Duct</h3>
-                                <p>
-                                    Ideal for smooth airflow in tight spaces, offering flexibility and energy efficiency.
-                                </p>
+                                <h3 id="product-title2"></h3>
+                                <p id="product-desc2"></p>
                             </div>
                         </div>
                     </div>
@@ -131,10 +137,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/rectangular-elbow.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Rectangular Elbow</h3>
-                                <p>
-                                    Enables directional changes in rectangular duct systems while maintaining air quality.
-                                </p>
+                                <h3 id="product-title3"></h3>
+                                <p id="product-desc3"></p>
                             </div>
                         </div>
                     </div>
@@ -142,10 +146,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/round-elbow.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Round Elbow</h3>
-                                <p>
-                                    Designed to facilitate turns in round ducting without sacrificing airflow efficiency.
-                                </p>
+                                <h3 id="product-title4"></h3>
+                                <p id="product-desc4"></p>
                             </div>
                         </div>
                     </div>
@@ -153,10 +155,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/react-round-transition.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Rectangular to Round Transition</h3>
-                                <p>
-                                    Seamlessly connects rectangular ducts to round systems for optimal air distribution.
-                                </p>
+                                <h3 id="product-title5"></h3>
+                                <p id="product-desc5"></p>
                             </div>
                         </div>
                     </div>
@@ -164,10 +164,8 @@
                         <div class="card rounded-0 ui-card ">
                             <img src="images/services/round-transition.avif" class="card-img " alt="...">
                             <div class="card-description ">
-                                <h3>Round Transition</h3>
-                                <p>
-                                    Converts duct sizes smoothly for consistent airflow in complex installations.
-                                </p>
+                                <h3 id="product-title6"></h3>
+                                <p id="product-desc6"></p>
                             </div>
                         </div>
                     </div>
@@ -181,15 +179,8 @@
         <div class="container">
             <div class="row work-info d-flex align-items-center py-3 ">
                 <div class="col">
-                    <h2>Our Services</h2>
-                    <p class="description mt-4">
-                        At Rihs-Air, we offer a comprehensive range of HVAC services designed 
-                        to enhance your comfort and ensure the efficiency of your systems. 
-                        From manufacturing top-quality ventilation ducts to professional 
-                        installation, maintenance, and indoor air quality testing, our 
-                        solutions are tailored to meet your specific needs and ensure a 
-                        healthier, more comfortable environment.
-                    </p>
+                    <h2 id="services-title"></h2>
+                    <p class="description mt-4" id="services-desc"></p>
                 </div>
             </div>
             <!-- Service Items -->
@@ -197,12 +188,8 @@
             <div class="row service-item  reverse" id="hvac-producing">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>HVAC Producing</h3>
-                        <p class="description col-lg-9">
-                            Our company manufactures high-quality air ducts designed to optimize 
-                            airflow in both residential and commercial buildings. We ensure durable, 
-                            efficient products that contribute to a comfortable indoor environment.
-                        </p>
+                        <h3 id="service-title1"></h3>
+                        <p class="description col-lg-9" id="service-desc1"></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 service-image">
@@ -216,12 +203,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>HVAC Installation</h3>
-                        <p class="description col-lg-9">
-                            We handle the complete installation of HVAC systems, integrating heating, 
-                            cooling, and ventilation units seamlessly into your building's 
-                            infrastructure for optimal climate control.
-                        </p>
+                        <h3 id="service-title2"></h3>
+                        <p class="description col-lg-9" id="service-desc2"></p>
                     </div>
                 </div>
             </div>
@@ -229,17 +212,12 @@
             <div class="row service-item reverse" id="maintance-repair">
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>Maintenance and Repair</h3>
-                        <p class="description col-lg-9">
-                            Regular maintenance and timely repairs are vital to keep your 
-                            HVAC system operating at peak efficiency. We provide thorough 
-                            inspections, cleanings, and repairs to extend the life of your 
-                            system and prevent breakdowns.
-                        </p>
+                        <h3 id="service-title3"></h3>
+                        <p class="description col-lg-9" id="service-desc3"></p>
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-6 service-image">
-                    <img src="/images/services/maintance-repair.jpg" alt="Ventilation">
+                    <img src="images/services/maintance-repair.jpg" alt="Ventilation">
                 </div>
             </div>
             <!-- indoor quality air testing -->
@@ -249,12 +227,8 @@
                 </div>
                 <div class="col-12 col-md-6 col-lg-6">
                     <div class="service-text">
-                        <h3>Indoor Quality Air Testing</h3>
-                        <p class="description col-lg-9">
-                            We offer comprehensive indoor air quality testing to ensure your 
-                            HVAC system is delivering clean, breathable air. Our service includes 
-                            evaluating air quality and making adjustments to improve it as necessary.
-                        </p>
+                        <h3 id="service-title4"></h3>
+                        <p class="description col-lg-9" id="service-desc4"></p>
                     </div>
                 </div>
             </div>
@@ -267,22 +241,26 @@
             <div class="footer-container row row-cols-1 row-cols-lg-2 py-5">
                 <div class="footer-wrapper col">
                     <div class="footer-brand-wrapper">
-                        <p class="footer-brand-description">Air Conditioning 128 is a leading player in the global HVAC market.</p>
+                        <p class="footer-brand-description" id="footer-brand-description"></p>
                         <div class="footer-social-icons">
                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
                             <a href="#"><i class="fa-brands fa-facebook"></i></a>
-                            <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                            <a href="https://t.me/akhmedov_2303"><i class="fa-brands fa-telegram"></i></a>
                         </div>
                         <div class="footer-location">
-                            <a href="#">
+                            <a href="#" id="footer-location">
                                 <i class="fa-solid fa-location-dot"></i>
-                                4140 Parker Rd. Allentown, New Mexico 31134
                             </a>
                         </div>
                         <div class="footer-call">
-                            <i class="fa-solid fa-phone"></i>
-                            <a href="#">+99890-123-45-67</a> 
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="#">+99890-123-45-67</a>
+                            </div>
+                            <div>
+                                <i class="fa-solid fa-phone"></i>
                             <a href="#">+99897-654-32-10</a>
+                            </div>
                         </div>
                     </div>
                     <div class="footer-copyright">
